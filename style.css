@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    font-size: 22px;
+    font-family: Helvetica;
+    color: seashell;
+    opacity: 0.9;
+    position: relative;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar{
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;  
+    background-color: black;
+}
+
+ header .nav_container .navbar img{
+  height: 50px;
+  margin: 10px;
+}
+header .nav_container .navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 21px 10px;
+}
+header .nav_container .navbar ul li a{
+        color: seashell;
+}
+
+/* section */
+section .bg_container  {
+    width: 1200px;
+    height: 700px;
+    background-image: url("images/img-mission-background.webp");
+    margin: 69px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ section .bg_container  .heading{
+    color: seashell;
+    background-color: black;
+    width: 1200px;
+    height: 100px;
+    text-align: center;
+}
+section .bg_container .heading h2, h4{
+    margin-top: 10px;
+    margin-bottom: 18px;
+    
+}
+
+/* month */
+.month{
+    width: 1000px;
+    margin:100px auto;
+}
+.month .text_month{
+    color: seashell;
+    text-align: center;
+}
+.month .text_month h2, h4{
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.month  .container img{
+    width: 300px;
+    height: 200px;
+    margin: auto 14px;
+    margin-top: 8px;
+}
+
+.month .container .row-1{
+    display: inline-flex;
+}
+.month  .container  .month_info p{
+    color: seashell;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.month .container .row-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+}
+
+/* location */
+.location_bgimg {
+    width: 1200px;
+    height: 580px;
+    background-image: url("images/img-locations-background.webp");
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ .location_bgimg .locn_info .locn_heading h2{
+    color: seashell;
+    text-align: center;
+    margin-top: -100px;
+}
+
+ .location_bgimg .locn_info .locn_box .locn_card{
+   display: inline-flex;
+    background-color: black;
+    width: 300px;
+    height: 280px;
+    position: relative;
+    top: 15px;
+    margin: auto 20px;
+    justify-content: center;
+}
+.location_bgimg .locn_card .locn_card_info h3 {
+    text-align: center;
+  position: relative;
+    top: 15px;
+}
+.location_bgimg .locn_card .locn_card_info p{
+    text-align: center;
+    margin-top: 45px;
+    opacity: 1;
+}
+
+/* contact */
+.contact{
+    height: 200px;
+    text-align: center;
+    margin-top: 10px;
+}
+.contact h5{
+    margin: 20px auto;
+}
+
+/* footer */
+footer{
+    text-align: left;
+    margin: -45px 20px;
+}
